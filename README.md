@@ -15,6 +15,8 @@ jobs:
 
 点击star
 
+连接超时为30分钟，可以通过执行`touch /tmp/keepalive`命令去解除。
+
 # Action Debugger
 
 Interactive debugger for GitHub Actions
