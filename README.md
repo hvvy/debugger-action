@@ -1,4 +1,4 @@
-新建workflow文件,粘贴代码
+新建workflow文件`.github/workflows/action.yml`,粘贴代码
 
 ```
 name: Ubuntu
