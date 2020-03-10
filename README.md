@@ -1,6 +1,24 @@
+新建workflow文件,粘贴代码
+
+```
+name: Ubuntu
+on:
+  watch:
+    types: started
+jobs:
+  Ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - name: SSH connection to Actions
+      uses: P3TERX/debugger-action@master
+```
+
+点击star
+
 # Action Debugger
 
 Interactive debugger for GitHub Actions
+
 
 ## Usage
 
